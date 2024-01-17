@@ -10,12 +10,19 @@ A feladat
 Példák (lehet több is):
 
 csv <-> json
+
 csv <-> excel
+
 csv <-> word táblázat
+
 html <-> pdf
+
 html <-> Markdown
+
 html <-> Word
+
 pdf <-> Word
+
 megvalósítási javaslat
 DLL konverter motor
 A projekt célszerűen egy Statikus osztály legyen DLL-ben, hogy akármilyen projekthez felhasználható legyen. A DLL a metódusain keresztül működjön. Példa:
