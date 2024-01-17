@@ -2,7 +2,7 @@
 
 # Konverterek
 
-Leressünk a <font size=4 color="red">c#-hoz</font> megfelelő konvertáló könyvtárakat, amik segítségével különböző fájl formátumok egymásba konvertálhatók.
+Leressünk a <font size=12 color="red">c#</font>-hoz megfelelő konvertáló könyvtárakat, amik segítségével különböző fájl formátumok egymásba konvertálhatók.
 
 A feladat
 Írjunk programot, ami különböző fájl formátumot megadott formátumba konvertálja.
