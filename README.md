@@ -53,4 +53,4 @@ Osztálynév: nagybetűvel kezdődik
 Metódusnév: Nagybetűvel kezdődik
 változók, gyűjtemények: kisbetűvel kezdődik
 
-click here <a href="https://github.com/Ledaacs">My Profile</a>
+<a href="https://github.com/Ledaacs">My Profile</a>
