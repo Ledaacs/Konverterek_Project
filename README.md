@@ -25,10 +25,13 @@ pdf <-> Word
 
 megvalósítási javaslat
 DLL konverter motor
-A projekt célszerűen egy Statikus osztály legyen DLL-ben, hogy akármilyen projekthez felhasználható legyen. A DLL a metódusain keresztül működjön. Példa:
+A projekt célszerűen egy Statikus osztály legyen DLL-ben, hogy akármilyen projekthez felhasználható legyen. A DLL a metódusain keresztül működjön.
+ Példa:
 
 csv -> json: CsvToJson(csvForrásfájl, jsonCélfájl)
+
 A konverter működése
+
 A konverter a megírt DLL motort használja a konvertálásra. Működése, ha a program neve: convert.exe és például egy csv fájlból akarunk jsont készíteni, akkor parancssorból így hívjuk meg:
 
 convert valami.csv valami.json
