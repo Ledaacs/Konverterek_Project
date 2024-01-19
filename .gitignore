@@ -89,6 +89,10 @@ StyleCopReport.xml
 *.iobj
 *.pch
 *.pdb
+#-----
+*.exe
+*.config
+#------
 *.ipdb
 *.pgc
 *.pgd
