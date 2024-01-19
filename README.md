@@ -54,3 +54,6 @@ Metódusnév: Nagybetűvel kezdődik
 változók, gyűjtemények: kisbetűvel kezdődik
 
 <a href="https://github.com/Ledaacs">My Profile</a>
+
+
+helo a nevem Ledacs kiss Bence
