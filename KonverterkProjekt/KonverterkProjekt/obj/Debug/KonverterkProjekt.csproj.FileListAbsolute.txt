@@ -1,0 +1,7 @@
+C:\Tanulók\12.D\LedMan\KonverterkProjekt\KonverterkProjekt\obj\Debug\KonverterkProjekt.csproj.AssemblyReference.cache
+C:\Tanulók\12.D\LedMan\KonverterkProjekt\KonverterkProjekt\obj\Debug\KonverterkProjekt.csproj.CoreCompileInputs.cache
+C:\Tanulók\12.D\LedMan\KonverterkProjekt\KonverterkProjekt\bin\Debug\KonverterkProjekt.exe.config
+C:\Tanulók\12.D\LedMan\KonverterkProjekt\KonverterkProjekt\bin\Debug\KonverterkProjekt.exe
+C:\Tanulók\12.D\LedMan\KonverterkProjekt\KonverterkProjekt\bin\Debug\KonverterkProjekt.pdb
+C:\Tanulók\12.D\LedMan\KonverterkProjekt\KonverterkProjekt\obj\Debug\KonverterkProjekt.exe
+C:\Tanulók\12.D\LedMan\KonverterkProjekt\KonverterkProjekt\obj\Debug\KonverterkProjekt.pdb
