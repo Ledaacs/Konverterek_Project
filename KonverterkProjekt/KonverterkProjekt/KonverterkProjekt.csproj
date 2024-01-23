@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3BD5BB9-460E-4FF4-90FC-33BD237379F1}</ProjectGuid>
+    <ProjectGuid>{76A1345D-BEEA-4034-9FED-727EFF8DAB55}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Proba_projekt</RootNamespace>
-    <AssemblyName>Proba_projekt</AssemblyName>
+    <RootNamespace>KonverterkProjekt</RootNamespace>
+    <AssemblyName>KonverterkProjekt</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
