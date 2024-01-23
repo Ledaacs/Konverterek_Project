@@ -34,9 +34,6 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-#debug mappában engedjuk a txt fajlkoat
-!*bin/debug/*.txt
-
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
