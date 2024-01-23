@@ -10,6 +10,7 @@ namespace KonverterkProjekt
     {
         static void Main(string[] args)
         {
+            st
         }
     }
 }
