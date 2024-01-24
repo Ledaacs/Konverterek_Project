@@ -6,7 +6,7 @@
 Leressünk a <font color="red" style="font-weight:900">c#</font>-hoz megfelelő konvertáló könyvtárakat, amik segítségével különböző fájl formátumok egymásba konvertálhatók.
 
 A feladat
-Írjunk programot, ami különböző fájl formátumot megadott formátumba konvertálja.
+Írunk egy programot, ami különböző fájl formátumot megadott formátumba konvertálja.
 
 Példák (lehet több is):
 
@@ -24,7 +24,6 @@ html <-> Word
 
 pdf <-> Word
 
-megvalósítási javaslat
 DLL konverter motor
 A projekt célszerűen egy Statikus osztály legyen DLL-ben, hogy akármilyen projekthez felhasználható legyen. A DLL a metódusain keresztül működjön.
  Példa:

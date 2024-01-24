@@ -10,6 +10,8 @@ namespace KonverterProjekt
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(  );
+
             Console.ReadLine();
         }
     }
