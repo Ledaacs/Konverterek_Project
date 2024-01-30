@@ -41,6 +41,9 @@ namespace KonverterProjekt
         }
     }
 
+
+
+    //asd
     //static void ConvertExcelToCsv(string[] args)
     //{
     //    // Példa: CSV to Excel konverzió
@@ -53,5 +56,5 @@ namespace KonverterProjekt
     //    string csvOutputFilePath = "output.csv";
     //    FormatConvert.ConvertExcelToCsv(excelInputFilePath, csvOutputFilePath);
     //}
-}
+
 }
