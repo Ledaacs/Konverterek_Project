@@ -35,6 +35,7 @@ A konverter működése
 A konverter a megírt DLL motort használja a konvertálásra. Működése, ha a program neve: convert.exe és például egy csv fájlból akarunk jsont készíteni, akkor parancssorból így hívjuk meg:
 
 convert valami.csv valami.json
+
 A program ilyenkor a két paraméterben megadott fájl kiterjesztéséből találja ki, hogy miből mit kell csinálnia, és ehhez a megfelelő DLL függvényt kell meghívnia a megfelelő paraméterekkel. Természetesen forrás fájl ellenőrzést is végez, valamint ha ilyen konvertere nincs, üzen, hogy nem tudja megcsinálni.
 
 A konverter help-je
