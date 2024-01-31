@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace KonverterProjekt
 {
+    using System;
+    using System.IO;
+
     internal class Program
     {
         static void Main(string[] args)
@@ -28,6 +31,26 @@ namespace KonverterProjekt
                 return;
             }
 
+            // Ellenőrizzük, hogy a forrásfájl neve tartalmaz-e olyan kiterjesztést, ami elfogadható
+            string[] elfogadottKiterjesztesek = { ".csv", ".json", ".txt", ".xml", ".xlsx" };
+            bool ervenyesKiterjesztes = false;
+
+            foreach (var kiterjesztes in elfogadottKiterjesztesek)
+            {
+                if (sourceFilePath.EndsWith(kiterjesztes, StringComparison.OrdinalIgnoreCase))
+                {
+                    ervenyesKiterjesztes = true;
+                    break;
+                }
+            }
+
+            if (!ervenyesKiterjesztes)
+            {
+                Console.WriteLine("A forrásfájl kiterjesztése nem megfelelő.");
+                Console.ReadLine();
+                return;
+            }
+
             //.csv cél .json
             string jsonResult = FormatConvert.ConvertCsvToJson(sourceFilePath, targetFilePath);
 
@@ -37,24 +60,9 @@ namespace KonverterProjekt
                 Console.WriteLine(jsonResult);
             }
 
+            FormatConvert.ConvertCsvToXlsx(sourceFilePath, targetFilePath);
+
             Console.ReadLine();
         }
     }
-
-
-
-    //asd
-    //static void ConvertExcelToCsv(string[] args)
-    //{
-    //    // Példa: CSV to Excel konverzió
-    //    string csvFilePath = "input.csv";
-    //    string excelFilePath = "output.xlsx";
-    //    FormatConvert.ConvertCsvToExcel(csvFilePath, excelFilePath);
-
-    //    // Példa: Excel to CSV konverzió
-    //    string excelInputFilePath = "input.xlsx";
-    //    string csvOutputFilePath = "output.csv";
-    //    FormatConvert.ConvertExcelToCsv(excelInputFilePath, csvOutputFilePath);
-    //}
-
 }
