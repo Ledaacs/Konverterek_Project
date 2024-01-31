@@ -9,6 +9,7 @@ namespace KonverterProjekt
 {
     using System;
     using System.IO;
+    using System.Windows;
 
     internal class Program
     {
@@ -32,7 +33,18 @@ namespace KonverterProjekt
             }
 
             // Ellenőrizzük, hogy a forrásfájl neve tartalmaz-e olyan kiterjesztést, ami elfogadható
-            string[] elfogadottKiterjesztesek = { ".csv", ".json", ".txt", ".xml", ".xlsx" };
+            Dictionary<string, string> kombinaciokLista = new Dictionary<string, string>()
+            {
+                { "csv", "json" },
+                { "json", "csv" },
+            };
+
+            string[] kulcsok = kombinaciokLista.Select(pair => pair.Key).ToArray();
+            string[] ertekek = kombinaciokLista.Select(pair => pair.Value).ToArray();
+
+
+            string[] elfogadottKiterjesztesek = { ".csv", ".json", ".xlsx", ".word", ".pdf", ".md", ".html" };
+
             bool ervenyesKiterjesztes = false;
 
             foreach (var kiterjesztes in elfogadottKiterjesztesek)
@@ -60,7 +72,6 @@ namespace KonverterProjekt
                 Console.WriteLine(jsonResult);
             }
 
-            FormatConvert.ConvertCsvToXlsx(sourceFilePath, targetFilePath);
 
             Console.ReadLine();
         }
